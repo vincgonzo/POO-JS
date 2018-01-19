@@ -7,7 +7,7 @@ var Personnage = {
     },
 };
 
-var Joueur1 = Object.create(Personnage);
+var Joueur = Object.create(Personnage);
 Joueur.initJoueur = function(nom, sante, force){
   this.initPerso(nom, sante, force);
   this.xp = 0;
@@ -26,6 +26,3 @@ Adversaire.initAdversaire = function(nom, sante, force, race, valeur){
   this.race = race;
   this.valeur = valeur;
 }
-
-console.log(perso1.decrire());
-console.log(perso2.decrire());

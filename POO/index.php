@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>POO JS</title>
+    <title>Adventure POO-JS</title>
   </head>
   <body>
 
