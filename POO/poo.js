@@ -26,3 +26,16 @@ Adversaire.initAdversaire = function(nom, sante, force, race, valeur){
   this.race = race;
   this.valeur = valeur;
 }
+
+var joueur1 = Object.create(Joueur);
+joueur1.initJoueur('Aurora', 150, 25);
+
+var joueur2 = Object.create(Joueur);
+joueur2.initJoueur('Gladius', 130, 30);
+
+
+console.log(joueur1.decrire());
+console.log(joueur2.decrire());
+
+var monstre = Object.create(Adversaire);
+monstre.initAdversaire('Zogzog', 40, 20, 'orc', 10);
