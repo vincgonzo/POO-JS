@@ -55,7 +55,7 @@ var joueur2 = Object.create(Joueur);
 joueur2.initJoueur('Gladius', 130, 30);
 
 var joueur3 = Object.create(Joueur);
-joueur3.initJoueur('Erqtum', 180, 15);
+joueur3.initJoueur('Erctum', 180, 15);
 
 
 console.log(joueur1.decrire());
